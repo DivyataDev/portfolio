@@ -10,16 +10,20 @@ import Alert from "./components/Alert";
 function App() {
   return (
     <ChakraProvider>
-      <AlertProvider>
+      
         <main>
           <Header />
           <LandingSection />
           <ProjectsSection />
-          <ContactMeSection />
+          <AlertProvider>
+            <ContactMeSection /> 
+              <Alert />
+          </AlertProvider>
+          
           <Footer />
-          <Alert />
+       
         </main>
-      </AlertProvider>
+   
     </ChakraProvider>
   );
 }
