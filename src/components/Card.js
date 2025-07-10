@@ -13,7 +13,7 @@ const Card = ({ title, description, imageSrc }) => {
         <VStack  p={4} alignItems="flex-start" spacing={4}>
           <Heading size="md">{title}</Heading>
           <Text color="#808080">{description}</Text>
-          <a href="#">See More&nbsp;&nbsp;<FontAwesomeIcon icon={faArrowRight} size="1x" /></a>
+         <a href="#root">See More&nbsp;&nbsp;<FontAwesomeIcon icon={faArrowRight} size="1x" /></a>  
         </VStack>
       </VStack>
  
